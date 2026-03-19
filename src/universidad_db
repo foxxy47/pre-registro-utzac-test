@@ -1,0 +1,12 @@
+CREATE DATABASE universidad_db;
+USE universidad_db;
+
+CREATE TABLE aspirantes (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nombre VARCHAR(100),
+    movil VARCHAR(20),
+    email VARCHAR(100),
+    escuela VARCHAR(100),
+    carrera VARCHAR(100),
+    fecha_registro TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
