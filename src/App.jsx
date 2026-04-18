@@ -58,15 +58,15 @@ function App() {
       {/* Logos superiores */}
       {iniciado && (
         <>
-          <img src="https://scontent-dfw5-2.xx.fbcdn.net/v/t39.30808-6/472781941_594669726543962_2814276430072555941_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=1d70fc&_nc_eui2=AeHz-rR2MIN2XK87fK1zX0BZsn7XwdG3-n6yftfB0bf6fi4yoSLB66AN0vZbL9nQxgN4RJc2X0IAJI3zlYFv1OAv&_nc_ohc=9R3eA113Sz4Q7kNvwH4Ai8X&_nc_oc=AdlJ8zWwhQlRbk-MGKCcfIIw85UQ2n5UIKNbElJYFUXGlm3fNL4O92eWg8L5f92fvuoFR4B-KE22Vbn3S5PJr3yR&_nc_zt=23&_nc_ht=scontent-dfw5-2.xx&_nc_gid=FpyZhIwhQLjqTHaxGAbkeQ&_nc_ss=8&oh=00_AfxUA8g9teWw6wqzM9Bd01GT0PxARDlJPNBTwd0iIr-2AA&oe=69B89FA6" alt="Logo Izq" className="logo-esquina izq" />
-          <img src="https://scontent-dfw5-2.xx.fbcdn.net/v/t39.30808-6/472781941_594669726543962_2814276430072555941_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=1d70fc&_nc_eui2=AeHz-rR2MIN2XK87fK1zX0BZsn7XwdG3-n6yftfB0bf6fi4yoSLB66AN0vZbL9nQxgN4RJc2X0IAJI3zlYFv1OAv&_nc_ohc=9R3eA113Sz4Q7kNvwH4Ai8X&_nc_oc=AdlJ8zWwhQlRbk-MGKCcfIIw85UQ2n5UIKNbElJYFUXGlm3fNL4O92eWg8L5f92fvuoFR4B-KE22Vbn3S5PJr3yR&_nc_zt=23&_nc_ht=scontent-dfw5-2.xx&_nc_gid=FpyZhIwhQLjqTHaxGAbkeQ&_nc_ss=8&oh=00_AfxUA8g9teWw6wqzM9Bd01GT0PxARDlJPNBTwd0iIr-2AA&oe=69B89FA6" alt="Logo Der" className="logo-esquina der" />
+          <img src="public/logo.jpg" alt="Logo Izq" className="logo-esquina izq" />
+          <img src="public/logo.jpg" alt="Logo Der" className="logo-esquina der" />
         </>
       )}
 
       <div className="card">
         {!iniciado ? (
           <div className="menu-inicio">
-            <img src="https://www.utzac.edu.mx/wp-content/uploads/2018/05/logo-nuevo.png" alt="Logo Uni" style={{width: '100px'}} />
+            <img src="public/fondo.jpg" alt="Logo Uni" style={{width: '100px'}} />
             <h1 className="titulo">Bienvenido</h1>
             <p>Sistema de Pre-registro Universitario</p>
             <button className="btn-accion" onClick={() => setIniciado(true)}>
