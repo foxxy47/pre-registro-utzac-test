@@ -66,7 +66,7 @@ function App() {
       <div className="card">
         {!iniciado ? (
           <div className="menu-inicio">
-            <img src="public/fondo.jpg" alt="Logo Uni" style={{width: '100px'}} />
+            <img src="public/logo.jpg" alt="Logo Uni" style={{width: '100px'}} />
             <h1 className="titulo">Bienvenido</h1>
             <p>Sistema de Pre-registro Universitario</p>
             <button className="btn-accion" onClick={() => setIniciado(true)}>

@@ -22,7 +22,7 @@ body, html {
   justify-content: center; /* Centrado horizontal */
   align-items: center;     /* Centrado vertical */
   background-color: var(--verde-uni); /* Color de fondo base */
-  background-image: url("https://scontent-dfw5-1.xx.fbcdn.net/v/t1.6435-9/204333792_1825189207662628_183787213123152409_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=2a1932&_nc_eui2=AeFIhbWqc-aQ9XkLFiZ_Mffx6BVopqvTia7oFWimq9OJrhvZvEzTZPf9N0OkUrcml83XXABhWLns8_zrU-HfMo74&_nc_ohc=SlhKHLQNTwAQ7kNvwGyNXCC&_nc_oc=AdkLJRzlwlX6BaZ5OLpSmcQj-TMJqtH7MuA_3xz0O_Otjj1z7cK7K6PPm0wc2AiNAF0cn-3BNTs76NQnZTDagHtr&_nc_zt=23&_nc_ht=scontent-dfw5-1.xx&_nc_gid=I7ZBTO1X3mqbLCux6unz4A&_nc_ss=8&oh=00_Afwsb6BB7xsNz_H5ZjqpeQO7GkttYKZVxwtTfRFLNZGnRw&oe=69DA5A05"); /* Opcional */
+  background-image: url("public/fondo.jpg"); /* Opcional */
   background-size: cover;
   background-position: center;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
